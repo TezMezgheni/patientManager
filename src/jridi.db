@@ -1,0 +1,9 @@
+USE patientManager;
+CREATE TABLE patient (
+  cin INT(8) UNSIGNED PRIMARY KEY,
+  nom VARCHAR(255) NOT NULL,
+  prenom VARCHAR(255) NOT NULL,
+  addresse VARCHAR(255) NOT NULL,
+  date_naissance DATE,
+  tel INT(10)
+);
